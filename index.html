@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de musica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="dj-vinyl-disc-icon-outline-style-vector.jpg" type="image/x-icon">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <h1>Reproductor de musica
+        <p>Con la mano derecha modifica la velocidad y con la izquierda modifica el volumen</p>
+    </h1>
+    <div style = "float: right;">
+        <img src="Z23N.gif" >
+        <h3 id="volume">Volumen : </h3>
+    </div>
+    <div style = "float: left;">
+        <img src="Z23N.gif" >
+        <h3 id="speed">Velocidad : </h3>
+    </div>
+    <h2 onclick="play()">Reproducir</h2>
+    <h2 onclick="stop()">Detener</h2>
+    <br>
+    <div id="canvas"></div>
+    <select id="canciones" oninput = "cambiar_cancion()">
+
+        <option value="1">un x100to</option>
+        <option value="2">Ojiton lindos</option>
+        <option value="3">Bzrp con quevedo</option>
+        <option value="4">Ella baila sola</option>
+
+    </select>
+    <footer>Hecho por Roberto Tamayo
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

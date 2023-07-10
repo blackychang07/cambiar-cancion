@@ -1,0 +1,73 @@
+body
+{
+background-image: url(cabina.avif);
+background-size: cover;
+text-align: center;
+}
+
+h1
+{
+    color: aliceblue;
+    background-color: rgba(155, 15, 220, 0.475);
+    width: 50%;
+    margin: 0 auto ;
+    border-radius: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 5px rgba(33, 6, 237, 0.578);
+    padding: 10px;
+}
+
+h3
+{
+    color: aliceblue;
+    background-color: rgba(155, 15, 220, 0.475);
+    width: 50%;
+    margin: 10px auto  ;
+    border-radius: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 5px rgba(33, 6, 237, 0.578);
+    padding: 10px;
+    
+}
+
+h2
+{
+    color: aliceblue;
+    background-color: rgba(15, 220, 220, 0.475);
+    width: 10%;
+    margin: 10px auto  ;
+    border-radius: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 5px rgba(6, 237, 91, 0.916);
+    padding: 10px;
+    display: inline-block;
+     
+}
+
+canvas
+{
+margin-top: 50px;
+}
+
+footer
+{
+    position: fixed;
+    bottom : 0;
+    width: 100%;
+    background-color: rgb(113, 165, 211);
+    color: blue;
+    font-family: cursive;
+}
+
+select
+{
+    color: aliceblue;
+    background-color: rgba(15, 29, 220, 0.475);
+    width: 15%;
+    margin: 10px auto  ;
+    border-radius: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 5px rgba(6, 75, 237, 0.916);
+    padding: 10px;
+    display: inline-block;
+}
